@@ -21,6 +21,7 @@ namespace ExplosionAPI.Controllers
             else
             {
                 // Borrowed from Kata best practices after I submitted a less efficient solution.
+                // https://www.codewars.com/kata/mumbling
                 output = string.Join("-", input.Select((x, i) => char.ToUpper(x) + new string(char.ToLower(x), i)));
             }
 

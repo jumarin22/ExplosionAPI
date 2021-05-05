@@ -21,6 +21,7 @@ namespace ExplosionAPI.Controllers
             else
             {
                 // Borrowed from Kata best practices after I submitted a less efficient solution.
+                // https://www.codewars.com/kata/digits-explosion
                 output = string.Join("", input.Select(c => new String(c, int.Parse(c.ToString()))));
             }
 
