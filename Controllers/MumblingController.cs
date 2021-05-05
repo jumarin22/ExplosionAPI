@@ -20,7 +20,7 @@ namespace ExplosionAPI.Controllers
                 output = "I didn't get a string!";
             else
             {
-                // Stolen from Kata best practices after I submitted a less efficient solution.
+                // Borrowed from Kata best practices after I submitted a less efficient solution.
                 output = string.Join("-", input.Select((x, i) => char.ToUpper(x) + new string(char.ToLower(x), i)));
             }
 

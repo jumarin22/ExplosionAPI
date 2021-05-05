@@ -20,7 +20,7 @@ namespace ExplosionAPI.Controllers
                 output = "I didn't get a string!";
             else
             {
-                // Stolen from Kata best practices after I submitted a less efficient solution.
+                // Borrowed from Kata best practices after I submitted a less efficient solution.
                 output = new string(input.ToArray().Reverse().ToArray());
             }
 
